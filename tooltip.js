@@ -5,7 +5,6 @@ import * as dom from '../js.dom/dom';
 * @class Tooltips
 * @classdesc Tooltips module initialised by adding .tooltip class to an element
 * Tooltip module
-* @module Tooltips
 * @global
 */
 class Tooltips {
