@@ -17,6 +17,8 @@ class Tooltips {
     
     _init(){
         this.tooltipList = document.querySelectorAll('[data-tooltip-type="enhanced"]');
+        if(!this.tooltipList.length) return false;
+
         this.tooltips = [];
         this._addTooltipLayer();
         this._addTooltips();
